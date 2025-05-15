@@ -1,0 +1,82 @@
+[
+  {
+    "id": "log001",
+    "timestamp": "2025-06-01T09:15:00Z",
+    "source_ip": "192.168.1.10",
+    "severity": "High",
+    "threat_type": "Brute Force Login",
+    "details": "Multiple failed login attempts detected within a short time frame."
+  },
+  {
+    "id": "log002",
+    "timestamp": "2025-06-01T09:17:43Z",
+    "source_ip": "203.0.113.12",
+    "severity": "Medium",
+    "threat_type": "Port Scanning",
+    "details": "Suspicious scanning activity detected across multiple ports."
+  },
+  {
+    "id": "log003",
+    "timestamp": "2025-06-01T09:20:12Z",
+    "source_ip": "198.51.100.88",
+    "severity": "High",
+    "threat_type": "Ransomware Beacon",
+    "details": "Outbound connection to known ransomware command-and-control domain."
+  },
+  {
+    "id": "log004",
+    "timestamp": "2025-06-01T09:25:50Z",
+    "source_ip": "192.0.2.45",
+    "severity": "Low",
+    "threat_type": "Suspicious File Download",
+    "details": "User downloaded an executable from an untrusted source."
+  },
+  {
+    "id": "log005",
+    "timestamp": "2025-06-01T09:30:27Z",
+    "source_ip": "203.0.113.67",
+    "severity": "Medium",
+    "threat_type": "DDoS Probe",
+    "details": "Traffic spike consistent with distributed probing patterns."
+  },
+  {
+    "id": "log006",
+    "timestamp": "2025-06-01T09:32:09Z",
+    "source_ip": "192.168.2.50",
+    "severity": "High",
+    "threat_type": "Privilege Escalation",
+    "details": "Unusual sudo activity detected from a non-admin user."
+  },
+  {
+    "id": "log007",
+    "timestamp": "2025-06-01T09:34:45Z",
+    "source_ip": "198.51.100.92",
+    "severity": "Low",
+    "threat_type": "Login From Unusual Country",
+    "details": "Login attempt from unexpected geolocation."
+  },
+  {
+    "id": "log008",
+    "timestamp": "2025-06-01T09:36:01Z",
+    "source_ip": "203.0.113.75",
+    "severity": "Medium",
+    "threat_type": "Malicious Script Detected",
+    "details": "Script flagged by endpoint protection system."
+  },
+  {
+    "id": "log009",
+    "timestamp": "2025-06-01T09:38:27Z",
+    "source_ip": "192.0.2.112",
+    "severity": "High",
+    "threat_type": "Unauthorized Access Attempt",
+    "details": "Attempt to access restricted file share without credentials."
+  },
+  {
+    "id": "log010",
+    "timestamp": "2025-06-01T09:40:16Z",
+    "source_ip": "203.0.113.99",
+    "severity": "Medium",
+    "threat_type": "Phishing Email Detected",
+    "details": "Inbound email contains link to known phishing domain."
+  }
+]
